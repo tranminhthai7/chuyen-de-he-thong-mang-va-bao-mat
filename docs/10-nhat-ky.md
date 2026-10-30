@@ -9,3 +9,10 @@ Chỉ ghi việc đã thực hiện thật. Mỗi lần cập nhật nêu kiểm
 - **Chưa làm:** chưa gửi đề xuất cho giảng viên; chưa dựng lab; chưa cấu hình firewall; chưa chạy kiểm thử; chưa có code.
 - **Kiểm tra:** xác nhận repo chưa có commit/remote; kiểm tra README và nguyên tắc an toàn có các ranh giới local-only/lab-only.
 - **Việc tiếp theo:** rà soát bộ tài liệu, sau đó người dùng/nhóm gửi đề xuất xin duyệt và cập nhật kết quả phản hồi.
+
+## Cập nhật 2026-10-30
+
+- **Đã làm:** người dùng đổi yêu cầu từ local-only sang tạo repo GitHub Public; repo `tranminhthai7/chuyen-de-he-thong-mang-va-bao-mat` đã được tạo rỗng.
+- **Trạng thái đồng bộ:** ba commit vẫn ở local; chưa cấu hình `origin` hoặc push tại thời điểm ghi mục này.
+- **Lưu ý:** lịch sử commit sử dụng email author do người dùng cung cấp; repo Public khiến metadata này có thể xem công khai.
+- **Việc tiếp theo:** cập nhật quy tắc repo, thêm `origin` đúng URL, push `main`, xác minh remote-tracking branch.

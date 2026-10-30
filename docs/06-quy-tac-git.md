@@ -2,10 +2,10 @@
 
 ## 1. Phạm vi repo
 
-- Repo nằm ở `D:\chuyen-de-he-thong-mang-va-bao-mat` và chỉ dùng local theo yêu cầu hiện tại.
-- Không thêm `origin`/remote, không push, không tạo repo công khai/riêng trên GitHub.
-- Không chia sẻ repo/tài liệu qua cloud hoặc dịch vụ ngoài nếu chưa được nhóm/giảng viên cho phép.
-- Nhánh local hiện tại là `main`; repo chưa có commit và chưa có remote.
+- Repo local nằm ở `D:\chuyen-de-he-thong-mang-va-bao-mat`; remote được người dùng duyệt là `https://github.com/tranminhthai7/chuyen-de-he-thong-mang-va-bao-mat` (Public).
+- Chỉ dùng `origin` trỏ tới URL trên; không thêm remote khác, không đổi visibility hoặc đẩy sang nơi khác nếu chưa được xác nhận riêng.
+- Trước mỗi push, kiểm tra status, diff, secrets và xác nhận nhánh đích là `main`.
+- Nhánh hiện tại là `main`; đã có ba commit local. Remote GitHub vừa được tạo và chưa nhận lịch sử local.
 
 ## 2. Quy tắc commit
 
@@ -43,7 +43,7 @@ git -C D:\chuyen-de-he-thong-mang-va-bao-mat diff --cached
 git -C D:\chuyen-de-he-thong-mang-va-bao-mat commit -m "docs: bổ sung nền tảng lý thuyết về firewall"
 ```
 
-Không chạy `git push`, `git remote add`, hoặc lệnh xóa/sửa lịch sử. Nếu sau này cần nộp GitHub, phải xin người dùng xác nhận riêng về remote, quyền riêng tư và nội dung được phép công khai.
+Không xóa/sửa lịch sử. Trước khi push, phải xác nhận `origin` đúng URL đã duyệt và rà soát nội dung vì repo Public. Không đưa secret hoặc dữ liệu thật vào commit.
 
 ## 5. Nhật ký
 

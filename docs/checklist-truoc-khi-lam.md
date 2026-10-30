@@ -32,5 +32,7 @@
 - [ ] Đã xem `git status`, diff và `git diff --check`.
 - [ ] Không có password/token/cookie/private key/dữ liệu cá nhân.
 - [ ] Thông điệp commit tiếng Việt theo Conventional Commits và mô tả đúng việc thật.
-- [ ] Repo vẫn không có remote/push nếu chưa được yêu cầu riêng.
+- [ ] `origin` chỉ trỏ đến repo GitHub Public đã được người dùng duyệt.
+- [ ] Đã rà nội dung/metadata public; không có secret hoặc dữ liệu thật.
+- [ ] Push đúng nhánh `main`; không thêm remote khác.
 - [ ] Báo cáo ghi cả hạn chế và lỗi kiểm thử; không tuyên bố vượt quá bằng chứng.

@@ -40,7 +40,8 @@ Trước khi dựng hoặc chạy lab, cần có xác nhận về: tên đề t�
 
 ## 7. Quy tắc Git
 
-- Repo local-only; không thêm remote, push, publish hay chia sẻ công khai trong phạm vi công việc hiện tại.
+- Repo local được phép đồng bộ tới GitHub public `https://github.com/tranminhthai7/chuyen-de-he-thong-mang-va-bao-mat` theo xác nhận mới nhất của người dùng. Không thêm remote khác hoặc đẩy tới URL khác nếu chưa được xác nhận riêng.
+- Repo public làm lộ nội dung và metadata commit. Các commit hiện dùng author email do người dùng cung cấp; không thêm bí mật/dữ liệu cá nhân vào file. Không viết lại lịch sử commit nếu chưa được yêu cầu rõ.
 - Commit nhỏ, theo một mục tiêu rõ, sau khi nội dung được rà soát; ghi đúng những gì đã thay đổi.
 - Không ghi hoạt động chưa làm vào nhật ký/commit; không tạo commit giả để lấp ngày trống.
 - Giữ working tree có tổ chức, xem `git status` và diff trước khi commit; không commit secrets, bản cài đặt lớn hoặc tài liệu chưa được phép chia sẻ.
