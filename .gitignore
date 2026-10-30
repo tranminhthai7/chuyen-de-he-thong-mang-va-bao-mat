@@ -35,6 +35,11 @@ Thumbs.db
 # Theory, planning, and README documents stay local until approved for publication
 *.md
 
+# Reports and presentations stay local; publish only approved practical artifacts
+*.docx
+*.pptx
+*.pdf
+
 # Lab data, raw captures, exports, and private configuration stay local
 /LAB/local-data/
 /LAB/exports/
