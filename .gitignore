@@ -31,3 +31,14 @@ logs/
 *.log
 .DS_Store
 Thumbs.db
+
+# Lab data, raw captures, exports, and private configuration stay local
+/LAB/local-data/
+/LAB/exports/
+/LAB/firewall/private/
+/LAB/evidence/raw/
+/LAB/evidence/screenshots/
+*.pcap
+*.pcapng
+*.evtx
+*.dump

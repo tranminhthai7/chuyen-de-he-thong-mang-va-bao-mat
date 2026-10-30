@@ -31,6 +31,18 @@
 
 Checklist trước khi dựng lab/kiểm thử: `docs/checklist-truoc-khi-lam.md`.
 
+## Khung project lab
+
+- [LAB/README.md](LAB/README.md): bản đồ thư mục lab và trạng thái triển khai.
+- `LAB/topology/`: sơ đồ mạng, chỉ thêm sau khi phạm vi được duyệt.
+- `LAB/firewall/`: ghi phiên bản và thiết kế rule; cấu hình riêng/nhạy cảm để trong `LAB/firewall/private/` (local-only).
+- `LAB/hosts/`: vai trò VM và dịch vụ giả lập, không lưu image máy ảo.
+- `LAB/tests/`: ma trận ca kiểm thử và kết quả mong đợi.
+- `LAB/evidence/`: minh chứng đã làm sạch; raw log/capture và ảnh chụp local-only.
+- `LAB/local-data/`, `LAB/exports/`: dữ liệu làm việc và bản xuất local-only, bị Git bỏ qua.
+
+Các thư mục local-only không được hiện trên GitHub; `.gitignore` chỉ áp dụng với file chưa được Git theo dõi.
+
 ## Cách dùng repo
 
 - Ghi căn cứ nguồn trước khi ghi kết luận kỹ thuật.
