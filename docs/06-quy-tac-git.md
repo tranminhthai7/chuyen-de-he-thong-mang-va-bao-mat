@@ -5,7 +5,7 @@
 - Repo local nằm ở `D:\chuyen-de-he-thong-mang-va-bao-mat`; remote được người dùng duyệt là `https://github.com/tranminhthai7/chuyen-de-he-thong-mang-va-bao-mat` (Public).
 - Chỉ dùng `origin` trỏ tới URL trên; không thêm remote khác, không đổi visibility hoặc đẩy sang nơi khác nếu chưa được xác nhận riêng.
 - Trước mỗi push, kiểm tra status, diff, secrets và xác nhận nhánh đích là `main`.
-- Nhánh hiện tại là `main`; đã có ba commit local. Remote GitHub vừa được tạo và chưa nhận lịch sử local.
+- Nhánh hiện tại là `main`, theo dõi `origin/main`; lịch sử local đã được đồng bộ lên GitHub.
 
 ## 2. Quy tắc commit
 

@@ -13,6 +13,6 @@ Chỉ ghi việc đã thực hiện thật. Mỗi lần cập nhật nêu kiểm
 ## Cập nhật 2026-10-30
 
 - **Đã làm:** người dùng đổi yêu cầu từ local-only sang tạo repo GitHub Public; repo `tranminhthai7/chuyen-de-he-thong-mang-va-bao-mat` đã được tạo rỗng.
-- **Trạng thái đồng bộ:** ba commit vẫn ở local; chưa cấu hình `origin` hoặc push tại thời điểm ghi mục này.
+- **Đã hoàn thành:** tạo repo GitHub Public, cấu hình `origin` đúng URL đã duyệt và push nhánh `main`; upstream là `origin/main`.
 - **Lưu ý:** lịch sử commit sử dụng email author do người dùng cung cấp; repo Public khiến metadata này có thể xem công khai.
-- **Việc tiếp theo:** cập nhật quy tắc repo, thêm `origin` đúng URL, push `main`, xác minh remote-tracking branch.
+- **Kiểm tra tiếp theo:** xác nhận working tree sạch và repo local đồng bộ với remote.

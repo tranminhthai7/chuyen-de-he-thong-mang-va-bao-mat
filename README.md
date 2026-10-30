@@ -4,7 +4,7 @@
 
 - Tên đề tài đang xin ý kiến giảng viên: **Thiết kế và đánh giá mô hình tường lửa pfSense cho mạng doanh nghiệp nhỏ với phân vùng LAN/DMZ và kiểm soát truy cập**.
 - Tên đề tài và phạm vi vẫn là đề xuất, chưa được giảng viên phê duyệt.
-- Repo local tại `D:\chuyen-de-he-thong-mang-va-bao-mat`; GitHub public: https://github.com/tranminhthai7/chuyen-de-he-thong-mang-va-bao-mat. Repo online đã tạo; đang chuẩn bị đồng bộ lịch sử local.
+- Repo local tại `D:\chuyen-de-he-thong-mang-va-bao-mat`; GitHub public: https://github.com/tranminhthai7/chuyen-de-he-thong-mang-va-bao-mat. Nhánh `main` đã được push và theo dõi `origin/main`.
 - Giai đoạn hiện tại: đọc tài liệu, xây nền tảng lý thuyết, chốt phạm vi và xin duyệt. Chưa có cấu hình firewall hay thử nghiệm.
 
 ## Nguyên tắc bắt buộc
