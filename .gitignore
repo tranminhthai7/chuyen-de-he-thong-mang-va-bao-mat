@@ -1,0 +1,33 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Virtual machine images and installers
+*.iso
+*.ova
+*.vdi
+*.vmdk
+*.qcow2
+*.vbox
+*.vbox-prev
+*.vmx
+
+# Archives and local exports
+*.7z
+*.rar
+*.zip
+*.backup
+*.bak
+
+# Generated local data
+logs/
+*.log
+.DS_Store
+Thumbs.db
