@@ -32,6 +32,9 @@ logs/
 .DS_Store
 Thumbs.db
 
+# Theory, planning, and README documents stay local until approved for publication
+*.md
+
 # Lab data, raw captures, exports, and private configuration stay local
 /LAB/local-data/
 /LAB/exports/
