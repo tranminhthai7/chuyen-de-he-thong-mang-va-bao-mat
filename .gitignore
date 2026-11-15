@@ -1,4 +1,6 @@
-# Secrets and credentials
+﻿# ==========================================================
+# SECRETS, CREDENTIALS & SENSITIVE DATA (LOCAL-ONLY)
+# ==========================================================
 .env
 .env.*
 !.env.example
@@ -9,7 +11,9 @@ credentials/
 *.p12
 *.pfx
 
-# Virtual machine images and installers
+# ==========================================================
+# VIRTUAL MACHINE IMAGES & DISKS (LOCAL-ONLY - TOO LARGE)
+# ==========================================================
 *.iso
 *.ova
 *.vdi
@@ -19,34 +23,39 @@ credentials/
 *.vbox-prev
 *.vmx
 
-# Archives and local exports
+# ==========================================================
+# ARCHIVES, LOCAL BACKUPS & OS TRASH
+# ==========================================================
 *.7z
 *.rar
 *.zip
 *.backup
 *.bak
-
-# Generated local data
-logs/
-*.log
+*.tmp
+*.db
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Theory, planning, and README documents stay local until approved for publication
-*.md
+# ==========================================================
+# RAW CAPTURES, RAW LOGS & UNFILTERED DUMPS
+# ==========================================================
+logs/
+*.log
+*.pcap
+*.pcapng
+*.evtx
+*.dump
 
-# Reports and presentations stay local; publish only approved practical artifacts
-*.docx
-*.pptx
-*.pdf
-
-# Lab data, raw captures, exports, and private configuration stay local
+# ==========================================================
+# LAB PERSONAL NOTES & LOCAL-ONLY WORKING MEMORY
+# ==========================================================
+LAB/nhat-ky-thuc-hien.md
 /LAB/local-data/
 /LAB/exports/
 /LAB/firewall/private/
 /LAB/evidence/raw/
 /LAB/evidence/screenshots/
-*.pcap
-*.pcapng
-*.evtx
-*.dump
+
+# Drafts and temporary word exports (keep only final when ready)
+~$*
