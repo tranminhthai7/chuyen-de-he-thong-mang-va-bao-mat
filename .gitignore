@@ -70,3 +70,18 @@ LAB/topology/
 SETUP/
 SOFT/
 SOURCE/
+
+# ==========================================================
+# INTERNAL / PERSONAL NOTES & CHECKLISTS IN DOCS/ (LOCAL-ONLY)
+# ==========================================================
+docs/00-nguyen-tac-an-toan.md
+docs/05-quy-trinh-thuc-hien.md
+docs/06-quy-tac-git.md
+docs/08-de-xuat-gui-giang-vien.md
+docs/09-cau-truc-goi-nop.md
+docs/10-nhat-ky.md
+docs/11-ma-tran-yeu-cau.md
+docs/13-phieu-quyet-dinh.md
+docs/14-ke-hoach-bao-cao.md
+docs/15-checklist-nguon.md
+docs/checklist-truoc-khi-lam.md
