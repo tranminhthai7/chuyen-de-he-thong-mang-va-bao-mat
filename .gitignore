@@ -59,3 +59,14 @@ LAB/nhat-ky-thuc-hien.md
 
 # Drafts and temporary word exports (keep only final when ready)
 ~$*
+
+# ==========================================================
+# PLACEHOLDER FOLDERS (IGNORED UNTIL ACTUAL FILES ARE READY)
+# ==========================================================
+LAB/evidence/
+LAB/firewall/
+LAB/hosts/
+LAB/topology/
+SETUP/
+SOFT/
+SOURCE/
